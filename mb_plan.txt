@@ -1,0 +1,33 @@
+Introduce the Tursa machine
+CPU/GPU Hardware
+Setting of the GPU Frequency and Power Polling
+The estimation of carbon emissions
+
+Introduce the Ludwig code and benchmark
+Ludwig results (all involved the NV A100 40 GB GPUs)
+    4 Node at selected frequencies for a specific run
+        GPU Utilisation
+        GPU Power
+        GPU Energy
+    4 Node average plots for all frequencies
+        Energy usage
+        Energy delay product
+    4 Node emissions
+        Extreme emissions table
+        Emissions for best/middling/worst UK Grid region
+
+Introduce the LAMMPS code and benchmark
+Present results as for Ludwig
+
+Introduce the GROMACS code and benchmark
+Present the results as for Ludwig
+
+Summary
+    Optimum frequency re emissions is 1050 MHz for Ludwig and LAMMPS
+    Sweet spot gets sweeter for regions that have higher carbon intensity
+
+    GROMACS has an entirely different profile
+    Optimum frequency for emissions is 210 MHz
+
+    What's different about GROMACS compared to Ludwig and LAMMPS?
+
